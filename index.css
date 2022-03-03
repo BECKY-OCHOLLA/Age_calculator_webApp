@@ -1,5 +1,19 @@
-.background{
-    background-image: url("./images/graphiti1.jpg"); 
-    background-size:cover ;
+.navbar{
+    justify-content: space-between;
+}
+
+.card{
+    /* background-image: url("./images/graphiti2.jpg");   */
     background-repeat: no-repeat;
+    background-size: cover;
+     color: white;
+    background-color:rgb(12, 12, 102);
+}
+span{
+    color: red;
+    
+
+}
+.logo{
+    font-size: 35px;
 }
