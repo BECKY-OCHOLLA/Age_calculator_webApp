@@ -26,10 +26,16 @@ span{
     flex-direction: column; 
     justify-content: center;
     text-align: center;
-    width: 60%;
+    width: 30%;
     border-radius: 15px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
+    background-image: url(".//images/graphiti5.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
     box-sizing: border-box
+    
+    
     
     
     
@@ -50,5 +56,6 @@ span{
 background-color: rgb(125, 125, 197);
 display: flex;
 justify-content: center;
+background-image: url("");
 
 }
