@@ -9,23 +9,23 @@ submit.onclick=()=>{
 
     var dayArray=(["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",],["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]);
     
-    if(document.getElementById('male').checked){
-        document.write("male radio button is checked");
+//     if(document.getElementById('male').checked){
+//         document.write("male radio button is checked");
 
-    }else if(document.getElementById('female').checked){
-        document.write("female radio button is checked")
-    }else {  
-        document.write("no radio button is selected");   
-}  
+//     }else if(document.getElementById('female').checked){
+//         document.write("female radio button is checked")
+//     }else {  
+//         document.write("no radio button is selected");   
+// }  
 
- if(male === true){
-     document.write(["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]);
+//  if(male === true){
+//      document.write(["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]);
 
- }else{
-     document.write(["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]);
- }
+//  }else{
+//      document.write(["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]);
+//  }
 
-    printDate.innerHTML=dayArray[myDay];
+    printDate.innerHTML= "Your Akan name is" && dayArray[myDay];
 
 }
 

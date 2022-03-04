@@ -22,7 +22,7 @@ rel="stylesheet"/>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
     <P class="logo"><a href="">B<span>Tech</span></a></P>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@ rel="stylesheet"/>
     <div class="card mb-3" id="description" style="max-width: 100%;">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="./images/mob1.png" class="card-img" height="600" width="200">
+          <img src="./images/mob1.png" height="600" width="400">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -96,28 +96,35 @@ rel="stylesheet"/>
     </div> 
 
   </div> 
-  <div class="container justify-content-center "> 
-    
-    <div class="calculator">
-      <h2>Day of birth calculator</h2>
-      <p>Know the day ofthe week you were born today</p>  
-      <form name="form" class="myForm">
-        <div>
-          <label for="Date">Date of birth</label><br>
-          <input type="date" name="myBirthday" id= "myName"placeholder="date">
+  <div>
+    <div class="card text-center">
 
-        </div>
-        <div>
-          <label for="gender">Gender</label><br>
-          <input type="radio" name="gender" id="gender" value="Male">Male<br>
-          <input type="radio" name="gender" id="gender" value="Female">Female
-
-
-        </div>
-        <input type="button" value="Submit" id="submit">
-        <div id="result"></div>
-      </form>
     </div>
+  </div>
+   
+    
+  <div class="calculator1">
+    
+    <form name="form" class="myForm">
+      <h2>Day of birth calculator</h2>
+    <p>Know the day ofthe week you were born today</p>  
+      <div>
+       <label for="Date">Date of birth</label><br>
+       <input type="date" name="myBirthday" id= "myName"placeholder="date">
+
+      </div>
+
+      <div>
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" id="gender" value="Male">Male<br>
+        <input type="radio" name="gender" id="gender" value="Female">Female
+      </div>
+        <div><input type="button" value="Submit" id="submit"></div>
+        <br><br>
+        <div id="result"></div>
+        
+    </form>
+    
   
   </div>
      <script src="index.js"></script>

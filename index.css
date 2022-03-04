@@ -17,24 +17,38 @@ span{
 .logo{
     font-size: 35px;
     padding-left: 30px;
+    color: black;
 }
-.container{
-    height: 00px;
+.myForm{
+    height: 350px;
     background-color: grey;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
+    text-align: center;
     width: 60%;
+    border-radius: 15px;
+    padding-top: 50px;
     box-sizing: border-box
+    
+    
+    
+    
+    
     
     
     
 }
 #result{
     
-    background-color: blue;
+    background-color: rgb(65, 65, 190);
     color:white;
+    width: 50%;
+    font: 25px;
 }
+.calculator1{
+background-color: rgb(125, 125, 197);
+display: flex;
+justify-content: center;
 
-
-
-
+}
