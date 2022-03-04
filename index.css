@@ -19,14 +19,18 @@ span{
     padding-left: 30px;
 }
 .container{
-    height: 500px;
+    height: 00px;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    width: 60%;
     box-sizing: border-box
+    
     
     
 }
 #result{
-    height: ;
+    
     background-color: blue;
     color:white;
 }
