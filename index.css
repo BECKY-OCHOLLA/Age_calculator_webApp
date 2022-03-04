@@ -2,7 +2,7 @@
     justify-content: space-between;
 }
 
-.card{
+#description{
     /* background-image: url("./images/graphiti2.jpg");   */
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,3 +18,9 @@ span{
     font-size: 35px;
     padding-left: 30px;
 }
+.card{
+    
+}
+
+
+
