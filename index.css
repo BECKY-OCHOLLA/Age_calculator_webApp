@@ -18,9 +18,19 @@ span{
     font-size: 35px;
     padding-left: 30px;
 }
-.card{
+.container{
+    height: 500px;
+    background-color: grey;
+    box-sizing: border-box
+    
     
 }
+#result{
+    height: ;
+    background-color: blue;
+    color:white;
+}
+
 
 
 

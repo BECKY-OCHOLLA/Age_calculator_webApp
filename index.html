@@ -96,15 +96,15 @@ rel="stylesheet"/>
     </div> 
 
   </div> 
-  <div class="container d-flex justify-content-center border-primary mt-3">
+  <div class="container "> 
     
     <div class="">
       <h2>Day of birth calculator</h2>
       <p>Know the day ofthe week you were born today</p>  
-      <form action="">
+      <form name="form" class="myForm">
         <div>
           <label for="Date">Date of birth</label><br>
-          <input class="date" type="date" name="date" placeholder="Card/Visa Number">
+          <input type="date" name="myBirthday" id= "myName"placeholder="date">
 
         </div>
         <div>
@@ -114,7 +114,8 @@ rel="stylesheet"/>
 
 
         </div>
-        <input class="btn"type="button" value="Submit">
+        <input type="button" value="Submit" id="submit">
+        <div id="result"></div>
       </form>
     </div>
   
