@@ -14,4 +14,21 @@ h3{
     font-size: 25px;
     font-family: sans-serif;
 }
+#description2{
+   box-sizing: border-box;
+   border-radius: 12px;
+   border: brown;
+   background-image: url("./images/graphiti5.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   color: white;
+   height: 500px;
+   padding-top: 80px;
+
+
+}
+.container{
+    padding-top: 50px;
+}
 
