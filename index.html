@@ -23,7 +23,7 @@ rel="stylesheet"/>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-info">
-    <P class="logo"><a href="">B<span>Tech</span></a></P>
+    <P class="logo"><a href="">Aka<span>n</span> Naming</a></P>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,7 +44,7 @@ rel="stylesheet"/>
   
   <div class="container-fluid">
     <div class="row" id="description1">
-      <div class="col-sm-8">
+      <div class="col-sm-6" >
       <h1>Age Calculator</h1>
       <h4>Dis<span>cover</span> Me!</h4>
       <p >The age of a person can be counted differently in different cultures. 
@@ -58,24 +58,36 @@ rel="stylesheet"/>
 
     </div>
     
-    <div class="col-sm-4" id="description2">
-      <form name="form" class="myForm">
+    <div class="col-sm-6" id="description2">
+      <form name="form" id="myForm">
         <h2>Birth-Day calculator</h2>
         <h5>Know the day of the week you were born today</h5>  
         <div>
-          <label for="Date">Date of birth</label><br>
-          <input type="date" name="myBirthday" id= "myName"placeholder="date">
+          <label for="birthDay">Date of birth</label><br>
+          <input type="date" name="birthDay" id= "birthDay"placeholder="date">
     
         </div>
     
         <div>
-          <label for="gender">Gender</label><br>
-          <input type="radio" name="gender" id="gender" value="Male">:Male<br>
-          <input type="radio" name="gender" id="gender" value="Female">:Female
+          
+          <input type="radio" name="gender" id="genderFemale" value="Male">
+          <label for="genderMale" class="form-check-label">Male</label>
+
+          
+        </div>
+        <div>
+          <input type="radio" name="gender" id="genderMale" value="Female">
+          <label for="genderFemale" class="form-check-label">Female</label>
+
         </div>
         <div><input type="button" value="Submit" id="submit"></div>
-          <br><br>
-        <div id="result"></div>
+          
+          <div class="row justify-content-center" id="result">
+            <div class="col-md-4">
+              
+              <p class="h2 mt-3">Your Akan Name is:  <div class="type-area"><div id="displayAkanName" class="text-decoration-underline typing h2 text-center"></div></div> <br><button class="btn btn-outline-warning lets-go text-white mt-4" id="goBack"> <i class="fas fa-arrow-left"></i>GO BACK</button> </p>
+            </div>
+          </div>
             
       </form>
 
@@ -83,12 +95,9 @@ rel="stylesheet"/>
     </div>
     <div class="img"><img src="./images/mouse_click.png" height="20"></div>
     
-    
   </div>
   <div id="footer">
-
-    <p><span>DEV <span>BECKY</span></span> | Copyright &copy 2022 | All Rights Reserved.</p>
-    
+    <p><span>DEV <span>BECKY</span></span> | Copyright &copy 2022 | All Rights Reserved.</p>  
   </div>
    
   <script src="index.js"></script>
