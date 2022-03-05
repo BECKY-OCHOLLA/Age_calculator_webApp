@@ -59,8 +59,8 @@ goBack.addEventListener("click", (e)=>{
 
 //     var myDay= myDate.getDay();
 
-//     let maleAkanName= ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]; 
-//     let femaleAkanName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]; 
+let maleAkanName= ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]; 
+let femaleAkanName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]; 
 
     if(gender===""){
         alert("Err:Select Your Gender!")
