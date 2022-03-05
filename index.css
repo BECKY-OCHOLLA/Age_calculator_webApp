@@ -42,7 +42,8 @@ h3{
 }
 #description1{
     color: white;
-    background-color: rgb(5, 5, 95);
+    background-color: rgb(27, 27, 100);
+    
     text-align: center;
     padding-top: 50px;
 
@@ -56,5 +57,15 @@ h3{
     width: 100%;
     text-align: center;
     height: 50px;
+}
+#submit{
+    border-radius: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(3, 3, 194);
+    font-size: 15px;
 }
 
