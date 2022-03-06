@@ -1,6 +1,6 @@
 
 
-    var goBack= document.getElementById("goBack");
+    var clear= document.getElementById("clear");
     var date = document.getElementById("month")
     var month = document.getElementById("date")
     var year = document.getElementById('year')
