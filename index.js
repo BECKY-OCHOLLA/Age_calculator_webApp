@@ -13,19 +13,19 @@
        
         if (year.toString().length!=4){
             alert("incorrect enty,four digits needed i.e 1996");
-            // year.style.border = "solid 3px red";
+            
             return false;
             
         }
         else if (date.toString().length <2) {
             alert("incorrect entry ,should 2 digits i.e 06");
-            // date.style.border = "solid 3px red";
+            
             return false;
         }
        
         else if (month.toString().length <2){
             alert( "incorrect entry,two digits needed i.e 02");
-            // month.style.border = "solid 3px red";
+            
             return  false;
         }
         else{
