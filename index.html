@@ -59,37 +59,36 @@ rel="stylesheet"/>
     </div>
     
     <div class="col-sm-5" id="description2">
-      <form name="form" id="myForm">=
-        <h2>Struggling To know the day you were born?</h2>
-        <h5>This Akan calculator comes to your rescue!</h5>  
-        <div>
-          <label for="birthDay">Date of birth</label><br>
-          <input type="date" name="birthDay" id= "birthDay"placeholder="date">
-    
-        </div>
-    
-        <div>
-          
-          <input type="radio" name="gender" id="genderFemale" value="Male">
-          <label for="genderMale" class="form-check-label">Male</label>
-
-          
-        </div>
-        <div>
-          <input type="radio" name="gender" id="genderMale" value="Female">
-          <label for="genderFemale" class="form-check-label">Female</label>
-
-        </div>
-        <div><input type="button" value="Submit" id="submit"></div>
-          
-          <div class="row justify-content-center" id="result">
-            <div class="col-md-4">
+      <form action=""onclick="return myFunc()">
+        <div id="form" >
+                 <h2>Have you been struggling on to get your birth Day?</h2>
+                 <h3>Here comes the solution!</h3>
+              <div class="part">
+                    <label for="number">Year of Birth:</label> <br>
+                    <input type="number"  id="year" placeholder="Birth Year e.g. 1901" name="year" required><br>
               
-              <p class="h2 mt-3">Your Akan Name is:  <div class="type-area"><div id="displayAkanName" class="text-decoration-underline typing h2 text-center"></div></div> <br><button class="btn btn-outline-warning lets-go text-white mt-4" id="goBack"> <i class="fas fa-arrow-left"></i>GO BACK</button> </p>
-            </div>
-          </div>
-            
-      </form>
+                    <label for="month">Month of Birth:</label> <br>
+                    <input type="number"  id="month" placeholder="Birth Month e.g. 08" name="month" required> <br>
+             
+                    <label for="date">Date of Birth:</label> <br>
+                    <input type="number"  id="date" placeholder="Birth Date e.g 08" name="date" required> <br>
+                    
+                    <label for="gender">Gender</label><br>
+                   
+                  <div id="gender">
+                      <label>
+                        <input type="radio" value="male" name="gender" id="male"> Male <br>
+                        </label>
+                        <label>
+                        <input type="radio" value="female" name="gender" id="female">Female <br>
+                        </label>
+                    </div>
+              </div>
+              <button type="button" id="submitButton" >Find Day</button>
+              <div id="result"></div>
+              <button class="btn btn-outline-warning lets-go text-white mt-4" id="goBack"> <i class="fas fa-arrow-left"></i>CLEAR</button>
+      </div>
+ </form>
 
       
     </div>
