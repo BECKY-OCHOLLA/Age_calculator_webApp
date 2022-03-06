@@ -2,9 +2,11 @@
     justify-content: space-between;
 }
 .logo{
-    font-size: 35px;
+    font-size: 25px;
     padding-left: 50px;
+    font-family: 'Pacifico', cursive;
 }
+
 span{
     color: brown;
 }
@@ -23,14 +25,13 @@ h3{
 #description2{
    box-sizing: border-box;
    border-radius: 12px;
-   border: brown;
    background-image: url("./images/graphiti5.jpeg");
    background-repeat: no-repeat;
    background-size: cover;
    text-align: center;
    color: white;
-   height: 550px;
-   padding-top: 50px;
+   height: 670px;
+   padding-top: 30px;
 
 
 }
@@ -41,11 +42,10 @@ h3{
 
 }
 #description1{
-    color: white;
     background-color: rgb(27, 27, 100);
-    
+    color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
 
 }
 .img{
