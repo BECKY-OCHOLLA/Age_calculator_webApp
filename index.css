@@ -58,7 +58,7 @@ h3{
     text-align: center;
     height: 50px;
 }
-#submit{
+#submitButton{
     border-radius: 12px;
     padding-left: 25px;
     padding-right: 25px;
@@ -67,5 +67,9 @@ h3{
     color: white;
     background-color: rgb(3, 3, 194);
     font-size: 15px;
+}
+#result{
+    font-size: 25px;
+    color: rgb(24, 24, 236);
 }
 
